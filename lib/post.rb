@@ -5,12 +5,13 @@ class Post
    
   def initialize(title, author = nil)
     @title = title 
+    @authur = author 
     @@all << self 
   end 
   
   
   def author_name
-  if  self.author. 
+  if  self.author 
     self.author.title 
   else 
     nil 

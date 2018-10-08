@@ -18,7 +18,7 @@ class Post
   end 
    end 
   
-  def new
+  def
   @@all 
   end 
 end 
